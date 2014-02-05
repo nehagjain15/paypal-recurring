@@ -75,6 +75,7 @@ module PayPal
         :payer_id              => "PAYERID",
         :payment_action        => "PAYMENTREQUEST_0_PAYMENTACTION",
         :period                => "BILLINGPERIOD",
+        :billing_length        => "TOTALBILLINGCYCLES",
         :profile_id            => "PROFILEID",
         :reference             => ["PROFILEREFERENCE", "PAYMENTREQUEST_0_CUSTOM", "PAYMENTREQUEST_0_INVNUM"],
         :refund_type           => "REFUNDTYPE",

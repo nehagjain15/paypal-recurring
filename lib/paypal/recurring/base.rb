@@ -21,6 +21,7 @@ module PayPal
       attr_accessor :refund_type
       attr_accessor :return_url
       attr_accessor :start_at
+      attr_accessor :billing_length
       attr_accessor :token
       attr_accessor :transaction_id
       attr_accessor :item_category
@@ -188,6 +189,7 @@ module PayPal
           :ipn_url,
           :frequency,
           :period,
+          :billing_length,
           :email,
           :trial_length,
           :trial_period,
